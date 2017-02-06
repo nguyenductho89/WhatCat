@@ -179,7 +179,7 @@ class ChatViewController: JSQMessagesViewController, UIActionSheetDelegate,UIIma
                         for item in catArray! {
                             responseMessage.append(item.nameType + " " + item.accuracyPercent + "%\n")
                         }
-                        let endIndex = responseMessage.index(responseMessage.endIndex, offsetBy: -2)
+                        let endIndex = responseMessage.index(responseMessage.endIndex, offsetBy: -1)
                         responseMessage = responseMessage.substring(to: endIndex)
                         DispatchQueue.main.async {
                             MBProgressHUD.hideAllHUDs(for: self.view, animated: true)
