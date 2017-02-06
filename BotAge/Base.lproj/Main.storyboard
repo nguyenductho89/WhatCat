@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Dw2-Yf-9u8">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--BOT How old you are-->
+        <scene sceneID="omA-4m-fZb">
+            <objects>
+                <navigationController title="BOT How old you are" id="Dw2-Yf-9u8" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aRg-s0-GbZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="LDz-Qk-5H4" kind="relationship" relationship="rootViewController" id="aPE-rw-wR1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t0n-BS-dAR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="593" y="841"/>
+        </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="uKf-uR-StC">
+            <objects>
+                <viewController definesPresentationContext="YES" id="LDz-Qk-5H4" customClass="ChatViewController" customModule="BotAge" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="akW-jE-VCB"/>
+                        <viewControllerLayoutGuide type="bottom" id="FiZ-11-Z81"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="C8D-k3-vrk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <navigationItem key="navigationItem" id="hKr-kB-RRs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ySn-bw-W9E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1426" y="841"/>
+        </scene>
+    </scenes>
+</document>
